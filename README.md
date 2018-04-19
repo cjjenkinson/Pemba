@@ -1,4 +1,4 @@
-# Penba
+# Pemba
 
 Build message driven single page applications with Pemba 🐦
 #### Motivation
@@ -15,7 +15,7 @@ With Pemba building the UI is based on the same architecture of React but managi
 
 ### Pemba Bolt-ons
 
-Opinionated bolt on modules for state management, side effects and routing.
+Bolt on modules for state management, side effects and routing.
 
 - Pembax
 - Pemba Router
