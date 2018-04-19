@@ -1,5 +1,8 @@
-<img src="https://github.com/cjjenkinson/Pemba/blob/master/examples/pemba_logo.png?raw=true" width="120px" style="text-align: center" />
 
+<div align="center">
+ <img width= "232px" src="https://github.com/cjjenkinson/Pemba/blob/master/examples/pemba_logo.png?raw=true></img>
+                          </div>
+                          
 # Pemba
 
 Build message driven single page applications with Pemba 🐦
