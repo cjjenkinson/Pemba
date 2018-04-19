@@ -1,4 +1,4 @@
-<img src="https://github.com/cjjenkinson/Pemba/blob/master/examples/pemba_logo.png?raw=true" width="120px" />
+<img src="https://github.com/cjjenkinson/Pemba/blob/master/examples/pemba_logo.png?raw=true" width="120px" style="text-align: center" />
 
 # Pemba
 
