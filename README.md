@@ -1,13 +1,16 @@
+<img src="https://github.com/cjjenkinson/Pemba/blob/master/examples/pemba_logo.png?raw=true" width="120px" />
+
 # Pemba
 
 Build message driven single page applications with Pemba 🐦
+
+Pemba is a set of libraries that enable you to build single page applications using a message driven achitecture. 
+
 #### Motivation
 
 This project is and continues to be a learning experience to understand how the tools I use to build client side applications work under the hood aka React, Redux and the rest...
 
-It all started here: [https://github.com/hexacta/didact](didact)
-
-Pemba is a set of libraries that enable you to build single page applications using a message driven achitecture. 
+It all started here: [react didact](https://github.com/hexacta/didact)
 
 ### Message Driven Communication
 
