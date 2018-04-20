@@ -1,6 +1,6 @@
 {
   "name": "pemba",
-  "version": "0.0.01",
+  "version": "0.0.1",
   "description": "Build message driven single page applications with Pemba 🐦",
   "license": "MIT",
   "repository": "cjjenkinson/pemba",
