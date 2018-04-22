@@ -1,20 +1,15 @@
 import test from 'ava';
-import browserEnv from 'browser-env';
+import './_browser-mock';
 import { render } from '../src/pemba';
 
-// Create document global var
-browserEnv(['document']);
-
 test.beforeEach(t => {
-	const root = document.createElement('div');
-	document.body.appendChild(root);
+	let root = document.getElementById('root');
+	if (!root) {
+		root = document.createElement('div');
+		root.id = 'root';
+		document.body.appendChild(root);
+	}
 	t.context.root = root;
-});
-
-test.afterEach.always(t => {
-	const root = t.context.root;
-	root.innerHTML = '';
-	document.body.removeChild(root);
 });
 
 test('render div', t => {
@@ -64,21 +59,4 @@ test('render span with text child', t => {
 	};
 	render(element, root);
 	t.is(root.innerHTML, '<span>Foo</span>');
-});
-
-test('render complex elements', t => {
-	const root = t.context.root;
-	const element = {
-		type: 'div',
-		props: {
-			children: [
-				{ type: 'a', props: { href: 'foolink.com' } },
-			],
-		},
-	};
-	render(element, root);
-	t.is(
-		root.innerHTML,
-		'<div><a href="foolink.com"></a></div>'
-	);
 });
