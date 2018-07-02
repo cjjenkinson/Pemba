@@ -10,16 +10,7 @@ This project is and continues to be a learning experience to understand how the 
 
 It all started here: [react didact](https://github.com/hexacta/didact)
 
-### Message Driven Communication
-
-With Pemba building the UI is based on the same architecture of React but managing state and side effects takes an opionated approach using messages.
-
 ## Useage
 
 ☠️ Don't use in production projects...
 
-Add it with Yarn or NPM:
-
-```bash
-yarn add pemba
-```
